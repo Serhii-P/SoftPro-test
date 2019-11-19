@@ -1,3 +1,5 @@
+// @import "utils/extends";
+
 * {
   box-sizing: border-box;
 }
@@ -16,9 +18,9 @@
 }
 
 #myCarousel {
-width: 100vw;
-height: 684px;
-overflow: hidden;
+  width: 100vw;
+  height: 684px;
+  overflow: hidden;
 }
 
 .carousel-item {
@@ -46,7 +48,8 @@ overflow: hidden;
 }
 
 .carousel-indicators {
-  bottom: -50px;
+  bottom: 10%;
+  left: 31%;
 }
 
 // body {
@@ -54,15 +57,15 @@ overflow: hidden;
 // }
 
 .glyphicon-chevron-left {
-  background-image: url('../../images/left.svg') !important;
+  background-image: url("../../images/left.svg") !important;
   z-index: 999;
   background-repeat: no-repeat;
-opacity: 1;
-margin-left: -6px !important;
+  opacity: 1;
+  margin-left: -6px !important;
 }
 
 .glyphicon-chevron-right {
-  background-image: url('../../images/right.svg');
+  background-image: url("../../images/right.svg");
   background-repeat: no-repeat;
   margin-right: -27px !important;
 }
@@ -93,13 +96,13 @@ margin-left: -6px !important;
   left: auto;
 }
 
-.carousel-control.right  {
+.carousel-control.right {
   // top: 46%;
   // right: 20.45%;
   background-color: #fff;
 }
 
-.carousel-control.left  {
+.carousel-control.left {
   background-color: #fff;
 }
 
@@ -107,38 +110,33 @@ margin-left: -6px !important;
   height: 684px !important;
 }
 
-.carousel-indicators {
-  bottom: 10%;
-  left: 31%;
-}
-
 .header-title {
   @extend %h1;
   line-height: 66px;
 
-  color: #FFFFFF;
+  color: #fff;
   margin-bottom: 70px;
 }
 
 .header-button {
-width: 255px;
-height: 61px;
-background: #005FA3;
-@extend %text;
-color: #fff;
-border: none;
-outline: none;
- }
+  width: 255px;
+  height: 61px;
+  background: #005fa3;
+  @extend %text;
+  color: #fff;
+  border: none;
+  outline: none;
+}
 
- .carousel-caption {
-   text-align: left;
-   top: 173px;
-   bottom: auto;
-   left: 23%;
- }
+.carousel-caption {
+  text-align: left;
+  top: 173px;
+  bottom: auto;
+  left: 23%;
+}
 
- .nav-buttons {
-   position: absolute;
-   right: 19%;
-   bottom: 24%;
- }
+.nav-buttons {
+  position: absolute;
+  right: 19%;
+  bottom: 24%;
+}
