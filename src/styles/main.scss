@@ -4,9 +4,42 @@
 
 @import "./components/header.scss";
 @import "./components/header-slider.scss";
+@import "./components/main-data.scss";
+@import "./components/aboutUs.scss";
+@import "./components/conclusion.scss";
+@import "./components/footer.scss";
 
 body {
-  background: $c-gray;
+  // background: $c-gray;
   // font-family: 'Merriweather', serif;
   // font-family: 'Lato', sans-serif;
+}
+
+.main-container {
+  padding: 0 19%;
+}
+
+@media screen and (max-width: 1900px) {
+  .main-container {
+    padding: 0 15%;
+  }
+}
+
+@media screen and (max-width: 1680px) {
+  .main-container {
+    padding: 0 12%;
+  }
+}
+
+
+@media screen and (max-width: 1550px) {
+  .main-container {
+    padding: 0 7%;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .main-container {
+    padding: 0 1%;
+  }
 }

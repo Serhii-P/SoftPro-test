@@ -1,0 +1,135 @@
+.aboutUs {
+  display: flex;
+  padding: 135px 0;
+
+  &-content {
+    width: 50%;
+    padding-right: 13%;
+
+    &__name {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 33px;
+      color: #bdbdbd;
+    }
+
+    &__title {
+      font-family: "Merriweather", serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 69px;
+      color: #333;
+      margin: 40px 0 60px;
+
+      & span {
+        color: #005fa3;
+      }
+    }
+
+    &__text {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      color: #000;
+    }
+  }
+
+  &-blocks {
+    width: 50%;
+    display: grid;
+    grid-gap: 30px;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(2, 270px);
+    grid-template-rows: repeat(2, 270px);
+
+    &__item {
+      background-color: #ebebeb;
+      background-image: url("../../images/skyline.svg");
+      background-repeat: no-repeat;
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      color: #000;
+      background-position: 24% 50%;
+      text-align: center;
+      padding: 32% 0 0 32%;
+      cursor: pointer;
+      transition: 0.3s;
+
+      &:hover,
+      &:focus {
+        background-color: #005fa3;
+        background-image: url("../../images/skyline-active.svg");
+        color: #fff;
+      }
+
+      &--number {
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 66px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+
+      &--project {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .aboutUs {
+    flex-wrap: wrap;
+    padding-top: 60px;
+
+    &-content {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 50px;
+
+      &__title {
+        margin: 17px 0 23px;
+      }
+
+      &__text {
+        width: 50%;
+        margin: 0 auto;
+      }
+    }
+
+    &-blocks {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .aboutUs-content__text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .aboutUs-blocks {
+    grid-template-columns: 270px;
+    grid-template-rows: 270px;
+
+    &__item {
+      width: 270px;
+      height: 270px;
+    }
+  }
+
+  .aboutUs-content__text {
+    width: 95%;
+  }
+}
