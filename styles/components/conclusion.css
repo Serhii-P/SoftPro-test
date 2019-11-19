@@ -1,0 +1,87 @@
+.conclusion {
+  background-image: url("../../images/concl-img.png");
+  padding: 33px 10% 135px; }
+  .conclusion-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .conclusion-btn {
+    width: 270px;
+    height: 66px;
+    background-color: #ebebeb;
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 144.55%;
+    text-align: center;
+    color: #000;
+    border: none;
+    outline: none;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+    .conclusion-btn:hover, .conclusion-btn:focus {
+      background: #005fa3;
+      color: #fff; }
+  .conclusion-title {
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0; }
+  .conclusion-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    .conclusion-content__image {
+      width: 50%; }
+    .conclusion-content__text {
+      width: 50%;
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 138%;
+      color: #fff;
+      padding-top: 30px; }
+
+.button__left {
+  margin-right: 30px; }
+
+@media screen and (max-width: 950px) {
+  .conclusion {
+    padding: 33px 2% 135px; } }
+
+@media screen and (max-width: 640px) {
+  .conclusion-nav {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .conclusion-content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .conclusion-content__text {
+      width: 73%; } }
+
+@media screen and (max-width: 605px) {
+  .button__left {
+    margin: 0 0 30px; } }
+
+@media screen and (max-width: 400px) {
+  .conclusion-title {
+    font-size: 38px;
+    margin: 20px 0; }
+  .conclusion-content__image {
+    width: 85%; }
+  .conclusion-content__text {
+    width: 95%; } }
+
+/*# sourceMappingURL=conclusion.css.map */

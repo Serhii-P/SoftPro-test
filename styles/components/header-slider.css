@@ -1,0 +1,140 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.container {
+  width: 100%;
+  height: 684px;
+  margin: 0;
+  padding: 0; }
+
+#myCarousel {
+  width: 100vw;
+  height: 684px;
+  overflow: hidden; }
+
+.carousel-item {
+  height: 350px; }
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%; }
+
+.carousel-indicators .dot {
+  border: none;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  opacity: 0.4;
+  margin-right: 40px; }
+
+.dot.active {
+  opacity: 1; }
+
+.carousel-indicators {
+  bottom: 10%;
+  left: 24%; }
+
+.glyphicon-chevron-left {
+  background-image: url("../../images/left.svg") !important;
+  z-index: 999;
+  background-repeat: no-repeat;
+  opacity: 1;
+  margin-left: -6px !important; }
+
+.glyphicon-chevron-right {
+  background-image: url("../../images/right.svg");
+  background-repeat: no-repeat;
+  margin-right: -27px !important; }
+
+.glyphicon-chevron-left:before {
+  display: none; }
+
+.glyphicon-chevron-right:before {
+  display: none; }
+
+.carousel-control {
+  width: 60px;
+  height: 60px;
+  background-color: #e9ecef6b;
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.left {
+  right: 60px;
+  left: auto; }
+
+.carousel-control.right {
+  background-color: #fff; }
+
+.carousel-control.left {
+  background-color: #fff; }
+
+.item-image {
+  height: 684px !important;
+  width: 100%; }
+
+.header-title {
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 66px;
+  color: #fff;
+  margin-bottom: 70px; }
+
+.header-button {
+  width: 255px;
+  height: 61px;
+  background: #005fa3;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  color: #fff;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+
+.header-button:hover {
+  background: #5ca5da; }
+
+.carousel-caption {
+  text-align: left;
+  top: 173px;
+  bottom: auto;
+  left: 15%; }
+
+.nav-buttons {
+  position: absolute;
+  right: 19%;
+  bottom: 24%; }
+
+@media screen and (max-width: 950px) {
+  .header-title {
+    font-size: 37px; }
+  .carousel-indicators {
+    left: 27%; } }
+
+@media screen and (max-width: 650px) {
+  .carousel-caption {
+    top: 100px; }
+  .nav-buttons {
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    right: 31%; }
+  .carousel-indicators {
+    left: 53%;
+    bottom: 5%; } }
+
+@media screen and (max-width: 370px) {
+  .nav-buttons {
+    right: 12%; }
+  .carousel-indicators .dot {
+    margin-right: 12px; } }
+
+/*# sourceMappingURL=header-slider.css.map */

@@ -1,0 +1,185 @@
+.footer {
+  margin-top: 130px;
+  background-image: url("../../images/footer-image.png");
+  height: 618px;
+  padding: 125px 17% 100px 19%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .footer-contacts {
+    width: 48%; }
+    .footer-contacts__title {
+      font-family: "Merriweather", serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 48px;
+      line-height: 69px;
+      color: #fff; }
+    .footer-contacts__text {
+      font-family: "Lato", sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 25px;
+      color: #fff;
+      margin: 46px 0 88px 0;
+      opacity: 0.6; }
+  .footer-form {
+    width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-family: "Lato", sans-serif; }
+  .footer-link {
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 19px;
+    opacity: 0.6; }
+  .footer-phone {
+    margin-right: 60px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s; }
+
+.name-field, .surname-field {
+  width: 50%; }
+
+.number-field, .feedbacks-field {
+  width: 100%; }
+
+.form-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF; }
+
+.input {
+  border: none;
+  background-color: #f7f0f000;
+  border-bottom: 1px solid #FFFFFF;
+  height: 34px;
+  color: #fff;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .input:focus {
+    border-bottom: 1px solid #005fa3; }
+
+.input[type="text"]::-webkit-input-placeholder {
+  padding-bottom: 20px; }
+
+.input[type="text"]::-moz-placeholder {
+  padding-bottom: 20px; }
+
+.input[type="text"]:-ms-input-placeholder {
+  padding-bottom: 20px; }
+
+.input[type="text"]::-ms-input-placeholder {
+  padding-bottom: 20px; }
+
+.input[type="text"]::placeholder {
+  padding-bottom: 20px; }
+
+.textArea {
+  width: 100%;
+  height: 130px;
+  border: none;
+  background-color: #f7f0f000;
+  border-bottom: 1px solid #FFFFFF;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .textArea:focus {
+    border-bottom: 1px solid #005fa3; }
+
+.number-field {
+  margin-top: 20px; }
+
+.input-number {
+  width: 93%; }
+
+.feedbacks-field {
+  margin: 20px 0 54px 0; }
+
+.textArea {
+  width: 93%;
+  color: #fff; }
+
+.textArea[type="text"]::-webkit-input-placeholder {
+  padding-top: 5px; }
+
+.textArea[type="text"]::-moz-placeholder {
+  padding-top: 5px; }
+
+.textArea[type="text"]:-ms-input-placeholder {
+  padding-top: 5px; }
+
+.textArea[type="text"]::-ms-input-placeholder {
+  padding-top: 5px; }
+
+.textArea[type="text"]::placeholder {
+  padding-top: 5px; }
+
+.name-input, .surname-input {
+  width: 86%; }
+
+.bottom-btn {
+  margin-left: 52%; }
+  .bottom-btn:hover, .bottom-btn:focus {
+    background-color: #5ca5da; }
+
+@media screen and (max-width: 1550px) {
+  .footer {
+    padding: 125px 5% 100px 12%; } }
+
+@media screen and (max-width: 1220px) {
+  .footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .footer-form {
+      width: 40%; }
+  .bottom-btn {
+    margin-left: 10%; }
+  .footer-contacts__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .footer-contacts__text {
+    margin: 28px 0 51px 0; }
+  .footer-phone {
+    margin-bottom: 20px; } }
+
+@media screen and (max-width: 700px) {
+  .footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: auto;
+    padding: 86px 5% 100px 5%; }
+    .footer-contacts {
+      width: 100%;
+      text-align: center; }
+    .footer-form {
+      width: 100%;
+      margin-top: 30px; }
+    .footer-contacts__block {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+@media screen and (max-width: 500px) {
+  .footer-phone {
+    margin-right: 0; } }
+
+/*# sourceMappingURL=footer.css.map */
