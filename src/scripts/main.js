@@ -1,3 +1,5 @@
 'use strict';
 
-console.log('hello mate academy!');
+// $(document).ready(function(){
+//   $('.header').height($(window).height());})
+
