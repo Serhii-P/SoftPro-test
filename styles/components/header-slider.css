@@ -58,18 +58,21 @@
   width: 60px;
   height: 60px;
   background-color: #e9ecef6b;
-  opacity: 0.5;
   -webkit-transition: 0.3s;
-  transition: 0.3s; }
+  transition: 0.3s;
+  opacity: 1; }
 
 .left {
   right: 60px;
   left: auto; }
 
 .carousel-control.right {
-  background-color: #fff; }
+  background-color: #ffffff70; }
 
 .carousel-control.left {
+  background-color: #ffffff70; }
+
+.carousel-control:hover {
   background-color: #fff; }
 
 .item-image {

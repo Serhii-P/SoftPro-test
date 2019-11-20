@@ -22,7 +22,7 @@
       font-size: 18px;
       line-height: 25px;
       color: #fff;
-      margin: 46px 0 88px 0;
+      margin: 46px 0 88px;
       opacity: 0.6; }
   .footer-form {
     width: 50%;
@@ -38,7 +38,7 @@
     font-weight: 300;
     font-size: 21px;
     line-height: 29px;
-    color: #FFFFFF;
+    color: #fff;
     margin-left: 19px;
     opacity: 0.6; }
   .footer-phone {
@@ -46,10 +46,12 @@
     -webkit-transition: 0.3s;
     transition: 0.3s; }
 
-.name-field, .surname-field {
+.name-field,
+.surname-field {
   width: 50%; }
 
-.number-field, .feedbacks-field {
+.number-field,
+.feedbacks-field {
   width: 100%; }
 
 .form-name {
@@ -57,12 +59,12 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF; }
+  color: #fff; }
 
 .input {
   border: none;
   background-color: #f7f0f000;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #fff;
   height: 34px;
   color: #fff;
   outline: none;
@@ -87,29 +89,16 @@
   padding-bottom: 20px; }
 
 .textArea {
-  width: 100%;
+  width: 93%;
   height: 130px;
   border: none;
   background-color: #f7f0f000;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #fff;
   outline: none;
   -webkit-transition: 0.3s;
   transition: 0.3s; }
   .textArea:focus {
     border-bottom: 1px solid #005fa3; }
-
-.number-field {
-  margin-top: 20px; }
-
-.input-number {
-  width: 93%; }
-
-.feedbacks-field {
-  margin: 20px 0 54px 0; }
-
-.textArea {
-  width: 93%;
-  color: #fff; }
 
 .textArea[type="text"]::-webkit-input-placeholder {
   padding-top: 5px; }
@@ -126,7 +115,17 @@
 .textArea[type="text"]::placeholder {
   padding-top: 5px; }
 
-.name-input, .surname-input {
+.number-field {
+  margin-top: 20px; }
+
+.input-number {
+  width: 93%; }
+
+.feedbacks-field {
+  margin: 20px 0 54px; }
+
+.name-input,
+.surname-input {
   width: 86%; }
 
 .bottom-btn {
@@ -154,7 +153,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
   .footer-contacts__text {
-    margin: 28px 0 51px 0; }
+    margin: 28px 0 51px; }
   .footer-phone {
     margin-bottom: 20px; } }
 
@@ -166,7 +165,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     height: auto;
-    padding: 86px 5% 100px 5%; }
+    padding: 86px 5% 100px; }
     .footer-contacts {
       width: 100%;
       text-align: center; }

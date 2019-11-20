@@ -40,19 +40,22 @@
         -webkit-transform: scaleY(1.1);
                 transform: scaleY(1.1); }
       .data-menu__item--name {
-        font-family: Lato;
+        font-family: "Lato", sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 24px;
         line-height: 30px;
         text-align: center;
-        color: #FFFFFF;
+        color: #fff;
         position: absolute;
         bottom: 45px;
         -webkit-transform: translate(-50%, -50%);
                 transform: translate(-50%, -50%);
         top: 75%;
         left: 49%; }
+
+.sport-card {
+  width: 75%; }
 
 @media screen and (max-width: 1900px) {
   .data {
@@ -76,5 +79,17 @@
     text-align: center; }
     .data-title {
       margin: 24px 0 46px; } }
+
+@media screen and (max-width: 400px) {
+  .data-menu {
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(auto-fill, minmax(307px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(307px, 1fr)); }
+  .data-menu__item {
+    width: 266px;
+    height: 307px; }
+  .sport-card {
+    width: 100%; } }
 
 /*# sourceMappingURL=main-data.css.map */
