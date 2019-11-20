@@ -71,6 +71,7 @@
   background-color: #e9ecef6b;
   opacity: 0.5;
   transition: 0.3s;
+  opacity: 1;
 }
 
 .left {
@@ -79,10 +80,14 @@
 }
 
 .carousel-control.right {
-  background-color: #fff;
+  background-color: #ffffff70;
 }
 
 .carousel-control.left {
+  background-color: #ffffff70;
+}
+
+.carousel-control:hover {
   background-color: #fff;
 }
 
@@ -163,9 +168,9 @@
 @media screen and (max-width: 370px) {
   .nav-buttons {
     right: 12%;
-}
+  }
 
-.carousel-indicators .dot {
-  margin-right: 12px;
-}
+  .carousel-indicators .dot {
+    margin-right: 12px;
+  }
 }

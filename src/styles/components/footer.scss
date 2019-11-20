@@ -24,7 +24,7 @@
       font-size: 18px;
       line-height: 25px;
       color: #fff;
-      margin: 46px 0 88px 0;
+      margin: 46px 0 88px;
       opacity: 0.6;
     }
   }
@@ -42,7 +42,7 @@
     font-weight: 300;
     font-size: 21px;
     line-height: 29px;
-    color: #FFFFFF;
+    color: #fff;
     margin-left: 19px;
     opacity: 0.6;
   }
@@ -53,11 +53,13 @@
   }
 }
 
-.name-field, .surname-field {
+.name-field,
+.surname-field {
   width: 50%;
 }
 
-.number-field, .feedbacks-field {
+.number-field,
+.feedbacks-field {
   width: 100%;
 }
 
@@ -66,13 +68,13 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .input {
   border: none;
   background-color: #f7f0f000;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #fff;
   height: 34px;
   color: #fff;
   outline: none;
@@ -88,17 +90,21 @@
 }
 
 .textArea {
-  width: 100%;
+  width: 93%;
   height: 130px;
   border: none;
   background-color: #f7f0f000;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #fff;
   outline: none;
   transition: 0.3s;
 
   &:focus {
     border-bottom: 1px solid #005fa3;
   }
+}
+
+.textArea[type="text"]::placeholder {
+  padding-top: 5px;
 }
 
 .number-field {
@@ -110,26 +116,19 @@
 }
 
 .feedbacks-field {
-  margin: 20px 0 54px 0;
+  margin: 20px 0 54px;
 }
 
-.textArea {
-  width: 93%;
-  color: #fff;
-}
-
-.textArea[type="text"]::placeholder {
-  padding-top: 5px;
-}
-
-.name-input, .surname-input {
+.name-input,
+.surname-input {
   width: 86%;
 }
 
 .bottom-btn {
   margin-left: 52%;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     background-color: #5ca5da;
   }
 }
@@ -159,7 +158,7 @@
   }
 
   .footer-contacts__text {
-    margin: 28px 0 51px 0;
+    margin: 28px 0 51px;
   }
 
   .footer-phone {
@@ -172,7 +171,7 @@
     flex-wrap: wrap;
     justify-content: center;
     height: auto;
-    padding: 86px 5% 100px 5%;
+    padding: 86px 5% 100px;
 
     &-contacts {
       width: 100%;
@@ -193,5 +192,5 @@
 @media screen and (max-width: 500px) {
   .footer-phone {
     margin-right: 0;
+  }
 }
- }

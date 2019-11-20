@@ -1,6 +1,11 @@
 .header {
   display: flex;
   height: 97px;
+  position: fixed;
+  z-index: 99;
+  background-color: #fff;
+  width: 100vw;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 
   &-logo {
     width: 47%;
@@ -11,12 +16,10 @@
     &__name {
       font-family: "Merriweather", serif;
       font-style: normal;
-      font-weight: bold;
-      font-size: 48px;
       font-weight: 900;
       font-size: 36px;
       line-height: 50px;
-      color: #005FA3;
+      color: #005fa3;
       margin: 0 0 0 13px;
       cursor: pointer;
     }
@@ -56,13 +59,14 @@
       font-weight: bold;
       line-height: 17px;
       letter-spacing: 0.1em;
-      color: #222222;
+      color: #222;
       padding: 0 22px 0 65px;
       transition: 0.3s;
       cursor: pointer;
 
-      &--link:hover, &--link:focus {
-        color: #005FA3;
+      &--link:hover,
+      &--link:focus {
+        color: #005fa3;
       }
     }
   }
@@ -129,4 +133,3 @@ li {
     }
   }
 }
-

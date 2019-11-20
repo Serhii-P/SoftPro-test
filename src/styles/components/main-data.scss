@@ -48,13 +48,13 @@
       }
 
       &--name {
-        font-family: Lato;
+        font-family: "Lato", sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 24px;
         line-height: 30px;
         text-align: center;
-        color: #FFFFFF;
+        color: #fff;
         position: absolute;
         bottom: 45px;
         transform: translate(-50%, -50%);
@@ -63,6 +63,10 @@
       }
     }
   }
+}
+
+.sport-card {
+  width: 75%;
 }
 
 @media screen and (max-width: 1900px) {
@@ -100,4 +104,21 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .data-menu {
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(auto-fill, minmax(307px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(307px, 1fr));
+}
+
+  .data-menu__item {
+    width: 266px;
+    height: 307px;
+  }
+
+  .sport-card {
+    width: 100%;
+  }
+}
 
