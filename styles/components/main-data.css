@@ -29,14 +29,14 @@
     .data-menu__item {
       width: 370px;
       height: 362px;
-      background-image: url("../../images/block.png");
+      background-image: url("./../images/block.png");
       justify-self: center;
       position: relative;
       cursor: pointer;
       -webkit-transition: 0.3s;
       transition: 0.3s; }
       .data-menu__item:hover, .data-menu__item:focus {
-        background-image: url("../../images/active-block.png");
+        background-image: url("./../images/active-block.png");
         -webkit-transform: scaleY(1.1);
                 transform: scaleY(1.1); }
       .data-menu__item--name {

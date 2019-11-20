@@ -37,14 +37,14 @@
   left: 24%; }
 
 .glyphicon-chevron-left {
-  background-image: url("../../images/left.svg") !important;
+  background-image: url("./../images/left.svg") !important;
   z-index: 999;
   background-repeat: no-repeat;
   opacity: 1;
   margin-left: -6px !important; }
 
 .glyphicon-chevron-right {
-  background-image: url("../../images/right.svg");
+  background-image: url("./../images/right.svg");
   background-repeat: no-repeat;
   margin-right: -27px !important; }
 

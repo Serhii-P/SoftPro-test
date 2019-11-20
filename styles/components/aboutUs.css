@@ -39,7 +39,7 @@
     grid-template-rows: repeat(2, 270px); }
     .aboutUs-blocks__item {
       background-color: #ebebeb;
-      background-image: url("../../images/skyline.svg");
+      background-image: url("./../images/skyline.svg");
       background-repeat: no-repeat;
       font-family: "Lato", sans-serif;
       font-style: normal;
@@ -52,7 +52,7 @@
       transition: 0.3s; }
       .aboutUs-blocks__item:hover, .aboutUs-blocks__item:focus {
         background-color: #005fa3;
-        background-image: url("../../images/skyline-active.svg");
+        background-image: url("./../images/skyline-active.svg");
         color: #fff; }
       .aboutUs-blocks__item--number {
         font-weight: 900;

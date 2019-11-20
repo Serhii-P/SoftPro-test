@@ -1,6 +1,6 @@
 .footer {
   margin-top: 130px;
-  background-image: url("../../images/footer-image.png");
+  background-image: url("./../images/footer-image.png");
   height: 618px;
   padding: 125px 17% 100px 19%;
   display: -webkit-box;
