@@ -251,7 +251,11 @@ li {
 
 @media screen and (max-width: 650px) {
   .carousel-caption {
-    top: 100px; }
+    top: 168px; }
+  .glyphicon-chevron-left,
+  .glyphicon-chevron-right {
+    width: 20px;
+    height: 20px; }
   .nav-buttons {
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
@@ -260,7 +264,9 @@ li {
     right: 31%; }
   .carousel-indicators {
     left: 53%;
-    bottom: 5%; } }
+    bottom: 5%; }
+  .header-title {
+    margin-bottom: 20px; } }
 
 @media screen and (max-width: 370px) {
   .nav-buttons {
